@@ -8,7 +8,7 @@ Password varchar(20)
 )	
 --Thêm tài khoản và mật khẩu đăng nhập
 INSERT INTO QUAN_TRI VALUES
-('caoxuanhieu','2020605723'),('nguyenduyphuc','2022605204'),('ledaoquyen','2022606618'),('lephuongnam','2022606030'),('nguyenduymanh','2022607370')
+('ledaoquyen','12345678')
 
 --Tạo bảng sách
 CREATE TABLE SACH(

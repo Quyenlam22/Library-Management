@@ -8,7 +8,7 @@ public class Connect {
 		Connection conn = null;
 		try {
 			Class.forName("com.microsoft.sqlserver.jdbc.SQLServerDriver");
-			String Url = "jdbc:sqlserver://localhost:1433;databaseName=QLTV;user=sa;password=lamlamlam01";
+			String Url = "jdbc:sqlserver://localhost:1433;databaseName=QLTV;user=sa;password=123456";
 			conn = DriverManager.getConnection(Url);
 		} catch (Exception e) {
 			System.out.println(e.toString());
